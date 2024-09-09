@@ -10,8 +10,6 @@ function getHtmlEntries() {
   htmlFiles.forEach((file) => {
     const name = path.basename(file, ".html");
     entries[name] = path.resolve(pagesDir, file);
-    console.log(name);
-    console.log(entries[name]);
   });
 
   return entries;
@@ -26,6 +24,9 @@ export default {
         ...getHtmlEntries(),
         main: "index.html",
         404: "404.html",
+      },
+      output: {
+        dir: "build",
       },
     },
   },
