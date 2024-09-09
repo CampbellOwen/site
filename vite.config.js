@@ -25,9 +25,6 @@ export default {
         main: "index.html",
         404: "404.html",
       },
-      output: {
-        dir: "build",
-      },
     },
   },
   plugins: [
