@@ -16,9 +16,7 @@ function getHtmlEntries() {
 }
 
 export default {
-  base: "./",
   build: {
-    minify: false,
     rollupOptions: {
       input: {
         ...getHtmlEntries(),
