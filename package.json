@@ -1,39 +1,23 @@
 {
-  "name": "site",
-  "version": "1.0.0",
-  "description": "Portfolio Site",
-  "main": "index.js",
-  "dependencies": {
-    "@splidejs/splide": "^2.4.21",
-    "tailwindcss": "^2.0.1",
-    "webpack": "^4.37.0"
+  "name": "heather_site",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "copy-webpack-plugin": "^6.3.2",
-    "css-loader": "^5.0.1",
-    "ejs-compiled-loader": "^3.0.0",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^4.5.0",
-    "postcss": "^8.1.9",
-    "postcss-cli": "^8.3.0",
-    "postcss-loader": "^4.1.0",
-    "style-loader": "^2.0.0",
-    "tailwind-heropatterns": "0.0.8",
-    "url-loader": "^4.1.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10",
+    "vite": "^5.4.1"
   },
-  "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/hmaskell/site.git"
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "prettier": "^3.3.3",
+    "tailwind-heropatterns": "^0.0.8",
+    "vite-plugin-handlebars": "^2.0.0"
   }
 }

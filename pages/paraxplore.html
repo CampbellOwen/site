@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>ParaXplore | Heather Maskell</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ParaXplore | Heather Maskell" />
+    <meta name="author" content="Heather Maskell" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="/src/splide.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="icon" href="https://www.heathermaskell.com/favicon.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-2NYEBWVFJK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-2NYEBWVFJK");
+    </script>
+  </head>
+
+  <body class="">
+    {{> alt-header }}
+
+    <div class="content animation-page w-full mt-16 md:px-32">
+      <div class="cardless-item">
+        <h2>ParaXplore</h2>
+        <p class="subhead">
+          App design concept for selecting one image from thousands based on
+          self-determined criteria
+        </p>
+      </div>
+
+      <div class="intro-info">
+        <div class="w-full flex pt-2">
+          <div class="intro-left flex-1">
+            <h6>Project Scope</h6>
+            <p>User Experience Design</p>
+            <p>User Interface Design</p>
+          </div>
+          <div class="info-right text-right flex-1">
+            <h6>Collaborators</h6>
+            <p>
+              <a href="http://www.computationaldesign.ca/">
+                Simon Fraser University Computational Design Lab
+              </a>
+            </p>
+            <p>Dr. Halil Erhan</p>
+            <p>Dr. Naghmi Shireen</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="splide">
+        <div class="splide__track img-carousel-container">
+          <ul class="splide__list img-carousel">
+            <li class="splide__slide">
+              <img
+                src="/img/paraxplore/vind-main.png"
+                alt="Homescreen of Vind app design showing wine collection categories"
+              />
+            </li>
+            <li class="splide__slide">
+              <img src="/img/vind/vind-varietals.png" alt="" />
+            </li>
+            <li class="splide__slide">
+              <img src="/img/vind/vind-wine.png" />
+            </li>
+            <li class="splide__slide">
+              <img src="/img/vind/vind-scanadd.png" />
+            </li>
+            <li class="splide__slide">
+              <img src="/img/vind/vind-notifs.png" />
+            </li>
+            <li class="splide__slide">
+              <img src="/img/vind/vind-winery.png" />
+            </li>
+            <li class="splide__slide">
+              <img src="/img/vind/vind-history.png" />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-context">
+        <div class="cardless-item">
+          <h5>The Challenge</h5>
+          The goal was to apply Dr. SHireen's findings to create an interactive
+          digital experience that facilitated common successful strategies for
+          selecting a winning design from over 1000 options.
+          <p></p>
+        </div>
+        <div class="cardless-item">
+          <h5>Overview</h5>
+          <p>
+            Generative design software allows designers to easily generate
+            thousands of design alternatives. This interface is intended to
+            support designers in the process of identifying the best design(s)
+            out of thousands.
+          </p>
+        </div>
+        <div class="cardless-item">
+          <h5>Context</h5>
+          <p>
+            Completed as a student project in collaboration with Simon Fraser
+            University's Computational Design Lab based on Dr. Naghmi Shireen's
+            thesis research into individuals' processes for narrowing down over
+            1000 designs to select a winner. My contributions included UX and UI
+            design, as well as co-authoring a research paper (presented at CHI
+            2019).
+          </p>
+        </div>
+      </div>
+
+      <div id="process" class="">
+        <div class="section-header cardless-item">
+          <hr />
+          <h2>Process</h2>
+        </div>
+
+        <div class="cardless-item"></div>
+      </div>
+
+      <div id="empathize" class="peach">
+        <div class="section-header cardless-item">
+          <hr />
+          <h2>Dr.Shireen's Research</h2>
+        </div>
+        <div class="info-card">
+          <h5 class="peach">Research Methods</h5>
+          <ul>
+            <li>Dr. Shireen conducted</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <h5 class="peach">Research Findings</h5>
+          <ul>
+            <li>Dr. Shireen conducted</li>
+          </ul>
+        </div>
+      </div>
+
+      <h1 class="uppercase flex justify-center">ParaXplore</h1>
+      <h2 class="flex justify-center">Selection and Sorting App Design</h2>
+      <p>
+        Design prototype for a design support tool allowing designers to upload
+        1000 design alternatives and narrow down their decision based on
+        self-determined criteria. Designed to work in tandem with parametric
+        generative design tools
+      </p>
+
+      <h4>Problem Context</h4>
+      <p>
+        Generative design software allows designers to easily generate thousands
+        of design alternatives. However, selecting the best solution from
+        thousands is like trying to find a needle in a haystack.
+      </p>
+      <p>
+        For her thesis, PhD candidate Naghmi Shireen observed patterns in
+        designers' processes when tasked with physically sorting through 1000
+        solutions to select the best. Based on Shireen's findings, I designed an
+        interface intended to support designers in the process of identifying
+        the best design(s) out of thousands.
+      </p>
+      <p>
+        For this project, I was given the unique opportunity to work in the
+        Computational Design Lab at Simon Fraser University under my professor
+        Halil Erhan.
+      </p>
+      <p>
+        I co-authored a paper entitled ParaXplore: Uncovering Design Patterns
+        when the Design Space is Loaded with Thousands of Solutions, detailing
+        research investigating the potential for a creativity support tool for
+        designers who are working with more than 1000 design alternatives, with
+        supporting mockups demonstrating how this research could inform an
+        interface to facilitate this process. The paper was submitted to CHI
+        2019, an ACM Conference on Human Factors in Computing Systems, along
+        with the following demo video I created to showcase Shireen's research
+        and my prototype.
+      </p>
+
+      <h4>Sampling</h4>
+      <p>
+        Shireen found that when participants were given 1000 design alternatives
+        to sort through, they would often use a strategy she calls "Sampling".
+        This refers to analyzing a subset of 20-25 alternatives, a chunk off the
+        original 1000, reducing the cognitive overload of considering all 1000
+        at once. The number of designs included in a sample varied from
+        participant to participant and throughout the process.
+      </p>
+      <p>
+        In ParaXplore, Sampling is how users view designs. After uploading the
+        set of images they wish to sort though, users immediately take a sample
+        to start the process through the SAMPLE button. From here, users can see
+        a manageable sample of designs and will begin to understand the
+        essential criteria that any winning design must meet.
+      </p>
+
+      <h4>Assessing Designs and Assigning to Collections</h4>
+      <p>
+        When designs meet user-specified criteria, they can be added to a
+        Collection named after the criteria the designs within it meet. When
+        designs do not meet the criteria, they can be added into a Rejected
+        collection, mirroring the process of participants in Shireen's study.
+      </p>
+
+      <h4>Managing Collections</h4>
+      <p>
+        In the later stages of the evaluation process, as participants' ideal
+        design became more defined to themselves, they would often
+        mass-rearrange the contents of their collections. In other words, they
+        would merge similar collections into one, branch off a collection into
+        two collections based on more specific criteria, or reject whole
+        collections upon realizing that the criteria the designs inside met was
+        weaker than others.
+      </p>
+
+      <h4>Generated Recommendations</h4>
+      <p>
+        Based on the strength and weakness of each design indicated through the
+        number of Collections a design is a part of, the number of positive and
+        negative tags, and the value of the fondness slider, a Best Options
+        collection is automatically generated.
+      </p>
+
+      <h4>Timeframe and Tools</h4>
+      <p>
+        Over the course of 4 months, Shireen and I met weekly for consultations
+        to discuss ideas for the proposed functionality and interface in
+        relation to her research, we went through cycles of sketching,
+        discussing, prototyping, demonstrating and evaluating. I used Adobe XD
+        to create mockups from sketches and to create an interactive prototype.
+      </p>
+
+      <div class="info-card">
+        <h5>Future Plans</h5>
+        <ul>
+          <li>
+            Conduct an Expert Review to measure the success of proposed
+            interface
+          </li>
+          <li>Further iteration & testing</li>
+          <li>
+            Build ParaXplore with the help of other Research Assistants in the
+            Computational Design Lab at Simon Fraser University
+          </li>
+          <li>
+            Submit research paper to conferences & academic journals *presented
+            at SigCHI 2019
+          </li>
+        </ul>
+      </div>
+      <h4>Future Plans</h4>
+      <p>
+        Shireen plans to conduct an Expert Review to measure the success of my
+        proposed interface. After further iteration and testing, she plans to
+        build ParaXplore with the help of other Research Assistants in the
+        Computational Design Lab at Simon Fraser University. Our research paper
+        has been submitted to several conferences and academic journals.
+      </p>
+      <p>
+        Given the chance to explore another iteration of this project, I would
+        focus on Criteria Applying. When it is decided that a design meets one
+        criteria, the flow is clear. However, if a design meets multiple
+        criteria, the current flow would be to duplicate the design and add each
+        copy to a collection representing the criteria the design meets.
+        However, a user could also simply apply several positive tags to a
+        design for each criteria met. I would like to explore the interaction of
+        adding a design to multiple collections at once. For example, the user
+        indicates they would like to add the design to a collection, the system
+        asks "which collection(s)?", and the user can select as many as they see
+        fit.
+      </p>
+
+      <div id="define" class="sky">
+        <div class="section-header cardless-item">
+          <hr />
+          <h2>Define</h2>
+        </div>
+
+        <div class="info-card">
+          <h5>Analysis Strategies</h5>
+          <ul>
+            <li>Affinity Diagramming to reveal trends and themes</li>
+            <li>
+              Created a persona from findings to help weigh design desisions
+              against intended audience
+            </li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <h5>Findings</h5>
+          <div class="chunked-list">
+            <div class="list-chunk">
+              <p class="caption">Common Activities</p>
+              <ul>
+                <li>Drinking wine</li>
+                <li>Finding pairings for wine</li>
+                <li>Storing + managing their collection</li>
+                <li>Attending wine festivals + tastings</li>
+                <li>Visiting wineries</li>
+                <li>“Having a nice cellar as a sort of status symbol.”</li>
+              </ul>
+            </div>
+            <div class="list-chunk">
+              <p class="caption">Common Goals</p>
+              <ul>
+                <li>Drinking good wine</li>
+                <li>Appreciating and collecting wine</li>
+                <li>Sharing wine with loved ones</li>
+                <li>Hunting down rare wines</li>
+                <li>Visiting wineries as a social experience</li>
+                <li>
+                  “Bringing something special to the table when I'm with fellow
+                  enthusiasts.”
+                </li>
+              </ul>
+            </div>
+            <div class="list-chunk">
+              <p class="caption">Common Frustrations</p>
+              <ul>
+                <li>Not remembering which bottles they have</li>
+                <li>Not remembering which bottles they liked</li>
+                <li>Not remembering where a wine was made</li>
+                <li>Not remembering when a wine expires</li>
+                <li>
+                  Not being able to trust reviews because of differences in
+                  preference
+                </li>
+                <li>
+                  When a special wine is opened accidentally in co-owned
+                  collections
+                </li>
+              </ul>
+            </div>
+            <div class="list-chunk">
+              <p class="caption">Observations</p>
+              <ul>
+                <li>
+                  Individuals with large collections (100+ bottles) unanimously
+                  reported frustration with government wine regulations.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-card problem-statement">
+          <h5>Problem Statement</h5>
+          <div class="flex flex-row">
+            <span class="gradient-line s-l"></span>
+            <p class="p-statement">
+              Wine collectors need a way to
+              <em> capture the details of wines</em> so they don't need to
+              <em>rely on memory</em> when selecting a wine, making purchasing
+              decisions, and discussing wines.
+            </p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="flex flex-col sm:flex-row md:flex-1">
+            <div class="persona-card w-full sm:flex-1">
+              <h5>Persona</h5>
+              <div class="persona-img">
+                <img src="/img/vind/vind-zameel.png" />
+              </div>
+              <div class="persona-title">
+                <h4>Zameel</h4>
+              </div>
+              <div class="persona-attributes">
+                <div class="key-value-persona">
+                  <p class="caption">Age</p>
+                  <p>38</p>
+                </div>
+                <div class="key-value-persona">
+                  <p class="caption">Status</p>
+                  <p>Married</p>
+                </div>
+                <div class="key-value-persona">
+                  <p class="caption">Occupation</p>
+                  <p>Real Estate</p>
+                </div>
+
+                <div class="key-value-persona">
+                  <p class="caption">Tech Literacy</p>
+                  <p>Confident</p>
+                </div>
+                <div class="key-value-persona">
+                  <p class="caption">Wine Expertise</p>
+                  <p>Novice</p>
+                </div>
+
+                <hr />
+
+                <div class="">
+                  <h5 class="leading-tight">
+                    "Wine is a living and breathing thing.
+                  </h5>
+                  <p>
+                    It is a marriage of agricultural product with the love and
+                    expertise of a winemaker. Every grape, every region, every
+                    vintage, and even every bottle is different giving you a
+                    unique experience every time you drink.”
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full sm:flex-1 sm:m-4 md:flex-2">
+              <h5>Persona Context</h5>
+              <div class="persona-context">
+                <p>
+                  Zameel maintains a mid-sized collection with his wife, Sandy.
+                  His true interest in wine began in University when he learned
+                  to experience and analyze each sip in a Wine Science course.
+                  He is often gifted wines by friends and family, and visits
+                  vineyards with Sandy on holiday, routinely heading home with a
+                  case of wine to add to their collection.
+                </p>
+                <br />
+                <p class="caption">Goals</p>
+                <p>
+                  Zameel wants to select a wine without leaving the kitchen as
+                  dinner simmers, and without handling and disrupting other
+                  bottles before making a selection.
+                </p>
+
+                <p>
+                  When selecting a wine for drinking, he might have a specific
+                  grape or price range in mind, depending on the occasion. When
+                  contemplating purchasing wine, he would like to know whether
+                  he has previously enjoyed that wine, how many similar wines he
+                  already has, and whether the price point is comparable to
+                  previous purchases of similar vintages.
+                </p>
+                <br />
+                <p class="caption">Frustrations</p>
+                <p>
+                  He struggles to remember when the expensive wines in his
+                  collection will expire. He fears he will forget a special
+                  bottle and leave it to turn to vinegar in his cellar. When
+                  discussing wines with fellow wine enthusiasts or when looking
+                  to restock favourite bottles, he struggles to remember the
+                  details of a bottle including the varietal, vintage, price,
+                  country, house, and his tasting notes for that bottle.
+                </p>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="ideate" class="lemon">
+        <div class="section-header cardless-item">
+          <hr />
+          <h2>Ideate</h2>
+        </div>
+        <div class="info-card">
+          <h5>Themes</h5>
+          <div class="chunked-list">
+            <div class="list-chunk">
+              <p class="caption">Collection Organizer</p>
+              <ul class="">
+                <li>Represent adding and removing wines</li>
+                <li>Provide storage guidelines</li>
+                <li>Improve wine searchability</li>
+                <li>Provide historical record of collection</li>
+                <li>Encourage documentation of tasting notes for wines</li>
+              </ul>
+            </div>
+            <div class="list-chunk">
+              <p class="caption">Social Rating and Recommendations</p>
+              <ul>
+                <li>Share tasting notes with Vind community</li>
+                <li>
+                  Search and browse community reivews to see how they reviewed
+                  wines
+                </li>
+                <li>Scan wine label to search</li>
+                <li>Community-sourced pairing recommendations</li>
+                <li>Wine education through resource sharing</li>
+                <li>
+                  “Watch” a wine to be notified when ratings are released for a
+                  vintage of interest
+                </li>
+                <li>
+                  Earn points to increase user review credibility by sharing
+                  tasting notes that others find helpful
+                </li>
+              </ul>
+            </div>
+            <div class="list-chunk">
+              <p class="caption">Wine Reminders</p>
+              <ul>
+                <li>Specific wine releases from vineyards</li>
+                <li>
+                  Rating releases from notable wine contests and festivals
+                </li>
+                <li>
+                  When to open vintages (reaching and leaving ideal aging for
+                  most rich tasting experience)
+                </li>
+                <li>When to re-stock wines</li>
+                <li>Quarter-turn notification (to prevent oxidization)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="info-card">
+          <h5>Sketches</h5>
+          <div class="sketch-chunk">
+            <h5 class="index">01</h5>
+            <div class="sketch-and-cap">
+              <img src="/img/vind/collectionsketch_3.png" />
+              <div class="sketch-info">
+                <p class="caption">Collection Homescreen - 01</p>
+                <p>
+                  Select a wine based on vintage, varietal, and price point. The
+                  search bar serves as a call-to-action to select a wine, and as
+                  a global keyword search.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="sketch-chunk">
+            <h5 class="index">02</h5>
+            <div class="sketch-and-cap">
+              <img src="/img/vind/collectionsketch_2.png" />
+              <div class="sketch-info">
+                <p class="caption">Collection Homescreen - 02</p>
+                <p>
+                  Consider each varietal individually, presented and swiped
+                  through one at a time. Scroll down to explore the vintages of
+                  that varietal in the collection. Search bar and grid view
+                  offer alternative methods to select a wine.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="sketch-chunk">
+            <h5 class="index">03</h5>
+            <div class="sketch-and-cap">
+              <img src="/img/vind/collectionsketch_1.png" />
+              <div class="sketch-info">
+                <p class="caption">Collection Homescreen - 03</p>
+                <p>
+                  Wines are organized into user-goal based categories such as
+                  searching for wines that were recently added, seeking a
+                  specific varietal, viewing wines within a certain price range,
+                  and selecting from wines within their ideal drinking age.
+                </p>
+                <br />
+                <p class="caption">Selected</p>
+                <p>
+                  This information architecture was best suited to meet Zameel's
+                  goals regardless of whether he opened the app to browse his
+                  collection, zero-in on a bottle he already had in mind, or
+                  update his collection. Further iterations also introduced the
+                  option to 'See All' wines in a category, which could then be
+                  filtered and sorted. Further iterations included categories
+                  for Price Range and Year as these may be key factors in
+                  selecitng a wine.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="prototype" class="peach">
+        <div class="cardless-item">
+          <hr />
+          <h2>Prototype</h2>
+        </div>
+        <div class="cardless-item">
+          <iframe
+            class="figma-prototype"
+            style="border-radius: 10px; border: 1px solid rgba(0, 0, 0, 0.1)"
+            width="100%"
+            height="!00%"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPqtyCG1qXpzQngcU75pmsG%2FVind"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <div id="test" class="sky">
+        <div class="cardless-item">
+          <hr />
+          <h2>Test</h2>
+        </div>
+        <div class="info-card">
+          <h5>Research Method</h5>
+          <ul>
+            <li>Think-Aloud user studies with interactive prototype</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h5>Key Findings</h5>
+          <ul>
+            <li>
+              Users felt they should not be allowed to edit History items, and
+              that doing so would defeat the purpose of the feature
+            </li>
+            <li>
+              When scanning a barcode to add a wine, if that wine already exists
+              in the collection, users felt the app should redirect to that
+              wine’s profile page to edit the quantity instead of to the “new
+              wine” form
+            </li>
+            <li>Conducted interviews with wine collectors & enthusiasts</li>
+            <li>
+              Some information on wine profile pages was hidden below the fold,
+              and users didn’t know there was more to scroll to see
+            </li>
+            <li>
+              All users reported relative ease of use and expressed interest in
+              the app for personal use
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="reflect" class="lemon">
+        <div class="cardless-item">
+          <hr />
+          <h2>Reflect</h2>
+        </div>
+        <div class="info-card">
+          <h5>Key Takeaways</h5>
+          <ul>
+            <li>Interactive prototypes are fantastic for testing usability</li>
+            <li>
+              Testing must be conducted with intended audience to truly test
+              validity of solution for audience problem
+            </li>
+            <li>
+              Project would have benefitted from testing in context and another
+              round of iteration
+            </li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h5>Further Research Questions</h5>
+          <div class="chunked-list">
+            <div class="list-chunk">
+              <p class="caption">Collection Organizer</p>
+              <ul>
+                <li>
+                  How might we improve the process of reflecting bulk wine
+                  purchases in the app?
+                </li>
+                <li>
+                  How might we improve the process of finding a wine in a
+                  collector’s physical collection after selecting a bottle
+                  through the app?
+                </li>
+                <li>
+                  How might we accurately and efficiently represent pairing
+                  information for a dish?
+                </li>
+              </ul>
+            </div>
+            <div class="list-chunk">
+              <p class="caption">Social Rating and Recommendations</p>
+              <ul>
+                <li>
+                  Exactly what information are sommeliers interested in
+                  ascertaining about others’ experiences with a given wine?
+                </li>
+                <li>
+                  How might we prompt users to give standardized, brief, fully
+                  informative tasting notes?
+                </li>
+              </ul>
+            </div>
+            <div class="list-chunk">
+              <p class="caption">Wine Reminders</p>
+              <ul>
+                <li>
+                  Which reminders would be most valued or irrelevant in
+                  practice?
+                </li>
+              </ul>
+            </div>
+            <div class="list-chunk">
+              <p class="caption">History</p>
+              <ul>
+                <li>
+                  Could notifications and history be combined to create a
+                  centralized info-hub?
+                </li>
+                <li>
+                  Is a history log as useful a feature to collectors as we had
+                  imagined it to be?
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardless-item">
+      <!-- <a href="/paraxplore.html">Next Project</a> -->
+    </div>
+
+    {{> footer }}
+  </body>
+</html>

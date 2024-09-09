@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>404: Page Not Found | Heather Maskell</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About | Heather Maskell" />
+    <meta name="author" content="Heather Maskell" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="/src/splide.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@300;600;700;800&display=swap");
+    </style>
+    <link rel="icon" href="http://www.heathermaskell.com/favicon.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-2NYEBWVFJK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-2NYEBWVFJK");
+    </script>
+  </head>
+
+  <body class="sticky-footer">
+    {{> header }}
+
+    <div class="not-found max-w-lg md:pb-4 md:mx-auto">
+      <img
+        src="/img/avi-cringe.png"
+        class="flex place-self-center w-52"
+        alt="Cartoon Heather cringing at the awkwardness of the page you were looking for not existing."
+      />
+      <div class="flex flex-col justify-center align-center">
+        <h3 class="pt-6">Page not found!</h3>
+        <p class="pt-3">
+          Thanks for your interest! Looks like this page doesn't exist. If you
+          think this is a big ol' mistake, please let me know at
+          <a href="mailto:hello@heathermaskell.com">hello@heathermaskell.com</a>
+        </p>
+      </div>
+      <div class="button-div pt-8">
+        <a href="index.html">
+          <button class="ghost-button">
+            <h5>home</h5>
+            <i class="ph-house-bold icon-right"></i>
+          </button>
+        </a>
+      </div>
+    </div>
+
+    {{> footer }}
+  </body>
+</html>

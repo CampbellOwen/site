@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Giant Journal | Heather Maskell</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Giant Journal | Heather Maskell" />
+    <meta name="author" content="Heather Maskell" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="/src/splide.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="icon" href="https://www.heathermaskell.com/favicon.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-2NYEBWVFJK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-2NYEBWVFJK");
+    </script>
+  </head>
+
+  <body class="">
+    {{> alt-header }}
+
+    <div class="content animation-page w-full mt-16 md:px-32">
+      <div class="cardless-item">
+        <h2 class="lemon">Giant Journal</h2>
+        <p class="subhead">A web tool for ephemeral expressions</p>
+        <div class="button-div md:pt-3">
+          <a href="dev/journal/journal.html" target="blank">
+            <div class="ghost-button">
+              <h5>try it out</h5>
+              <i class="ph-arrow-square-out-bold icon-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="splide">
+        <div class="splide__track img-carousel-container">
+          <ul class="splide__list img-carousel stone-orchard-carousel">
+            <li class="splide__slide">
+              <div class="info-card md:justify-center">
+                <img src="/img/nowPlaying/np-logo.png" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="info-card md:justify-center">
+                <img
+                  src="/img/nowPlaying/np-logo-process.png"
+                  alt="Spotify logo (green circle with three white curved lines, stacked), Spotify logo dithered (previously green area filled in with black dots on a white background, creating the illusion of gray from a distance, a.k.a. dithering), NowPlaying logo (12 squares, arranged to allude to the three stacked curves and dithering)"
+                />
+                <div class="card-info">
+                  <h5>Logo Process</h5>
+                  <p class="md:max-w-32">
+                    The use of a grpahics technique called 'Dithering' and of
+                    Spotify music streaming are key characteristics of this
+                    project. I combined these elements to create a
+                    well-representative brand for the project.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-context">
+        <div class="cardless-item">
+          <h5>Context</h5>
+          <p>Experience design and development.</p>
+        </div>
+
+        <div class="cardless-item">
+          <h5>Explanation</h5>
+          <p>
+            Shout it from the rooftops, or spare or neighbours and type it in
+            the Giant Journal. See your letters explode into and out of view.
+          </p>
+        </div>
+
+        <div class="cardless-item">
+          <h5>Inspiration</h5>
+          <p>
+            A desire to express and feel acknowledged, but for the manifestation
+            of negative feelings to disappear.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {{> footer }}
+  </body>
+</html>
